@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
-  },
+    "start": "node src/index.js",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-trybe-backend": "^2.1.0",
     "readline-sync": "^1.4.10"
   }
 }

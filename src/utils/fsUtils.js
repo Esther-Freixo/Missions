@@ -1,34 +1,35 @@
 const fs = require('fs').promises;
-const { log } = require('console');
-const path = require('path')
+const path = require('path');
 
 const MISSION_DATA_PATH = '../../data/missions.json';
 
 async function readMissionsData() {
-    try{
-        const data = await fs.readFile(path.resolve(__dirname, MISSION_DATA_PATH))
-        const missions = JSON.parse(data)
-        return missions
+    try {
+        const data = await fs.readFile(path.resolve(__dirname, MISSION_DATA_PATH));
+        const missions = JSON.parse(data);
+        return missions;
     } catch (error) {
-        console.log(`Erro na leitura do arquivo: ${error}`)
+        console.log(`Erro na leitura do arquivo: ${error}`);
     }
 }
 
 async function writeNewMissionData(newMission) {
     try {
-        const oldMissions = await readMissionsData()
-        const allMissions = JSON.stringify([...oldMissions, newMission])
+        const oldMissions = await readMissionsData();
+        const allMissions = JSON.stringify([
+            ...oldMissions, 
+            { id: Date.now(), ...newMission },
+        ]);
 
-        await fs.writeFile(path.resolve(__dirname, MISSION_DATA_PATH), allMissions)
+        await fs.writeFile(path.resolve(__dirname, MISSION_DATA_PATH), allMissions);
     } catch (error) {
-        console.error(`Erro na escrita do arquivo: ${error}`)
+        console.error(`Erro na escrita do arquivo: ${error}`);
     }
 }
 
 module.exports = {
     readMissionsData,
-    writeNewMissionData
-}
+    writeNewMissionData,
+};
 
-readMissionsData()
-
+readMissionsData();
