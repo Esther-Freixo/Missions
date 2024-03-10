@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Mariner 2",
+        "year": "1962",
+        "country": "Estados Unidos",
+        "destination": "V\u00eanus",
+        "id": 1
+    },
+    {
+        "name": "Venera 4",
+        "year": "1967",
+        "country": "URSS",
+        "destination": "V\u00eanus",
+        "id": 2
+    },
+    {
+        "name": "Mariner 5",
+        "year": "1967",
+        "country": "Estados Unidos",
+        "destination": "V\u00eanus",
+        "id": 3
+    },
+    {
+        "name": "Apollo 11",
+        "year": "1969",
+        "country": "Estados Unidos",
+        "destination": "Lua",
+        "id": 4
+    },
+    {
+        "name": "Mariner 10",
+        "year": "1973",
+        "country": "Estados Unidos",
+        "destination": "Merc\u00fario e V\u00eanus",
+        "id": 5
+    },
+    {
+        "name": "Voyager 1",
+        "year": "1977",
+        "country": "Estados Unidos",
+        "destination": "Espa\u00e7o interestelar",
+        "id": 6
+    },
+    {
+        "name": "Venera 16",
+        "year": "1983",
+        "country": "URSS",
+        "destination": "V\u00eanus",
+        "id": 7
+    },
+    {
+        "name": "Phobos 1",
+        "year": "1988",
+        "country": "URSS",
+        "destination": "Marte",
+        "id": 8
+    },
+    {
+        "name": "Phobos 2",
+        "year": "1988",
+        "country": "URSS",
+        "destination": "Marte",
+        "id": 9
+    },
+    {
+        "name": "Galileo",
+        "year": "1989",
+        "country": "Estados Unidos",
+        "destination": "J\u00fapiter",
+        "id": 10
+    },
+    {
+        "name": "Mars Pathfinder",
+        "year": "1996",
+        "country": "Estados Unidos",
+        "destination": "Marte",
+        "id": 11
+    },
+    {
+        "name": "Cassini-Huygens",
+        "year": "1997",
+        "country": "Estados Unidos e Europa",
+        "destination": "Saturno",
+        "id": 12
+    },
+    {
+        "name": "Nozomi (Planeta B)",
+        "year": "1998",
+        "country": "Jap\u00e3o",
+        "destination": "Marte",
+        "id": 13
+    },
+    {
+        "name": "Esta\u00e7\u00e3o Internacional Espacial",
+        "year": "1998",
+        "country": "Estados Unidos e R\u00fassia",
+        "destination": "\u00d3rbita terrestre",
+        "id": 14
+    },
+    {
+        "name": "Mars Polar Lander",
+        "year": "1999",
+        "country": "Estados Unidos",
+        "destination": "Marte",
+        "id": 15
+    },
+    {
+        "name": "2001 Mars Odyssey",
+        "year": "2001",
+        "country": "Estados Unidos",
+        "destination": "Marte",
+        "id": 16
+    },
+    {
+        "name": "Genesis",
+        "year": "2001",
+        "country": "Estados Unidos",
+        "destination": "Terra",
+        "id": 17
+    },
+    {
+        "name": "MESSENGER",
+        "year": "2004",
+        "country": "Estados Unidos",
+        "destination": "Merc\u00fario",
+        "id": 18
+    },
+    {
+        "name": "Telesc\u00f3pio Espacial Kepler",
+        "year": "2009",
+        "country": "Estados Unidos",
+        "destination": "Espa\u00e7o interestelar",
+        "id": 19
+    },
+    {
+        "name": "Telesc\u00f3pio Espacial James Webb",
+        "year": "2021",
+        "country": "Estados Unidos, Uni\u00e3o Europeia e Canad\u00e1",
+        "destination": "Espa\u00e7o interestelar",
+        "id": 20
+    }
+]
