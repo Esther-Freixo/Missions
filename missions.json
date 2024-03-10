@@ -3,21 +3,21 @@
         "name": "Mariner 2",
         "year": "1962",
         "country": "Estados Unidos",
-        "destination": "V\u00eanus",
+        "destination": "Vênus",
         "id": 1
     },
     {
         "name": "Venera 4",
         "year": "1967",
         "country": "URSS",
-        "destination": "V\u00eanus",
+        "destination": "Vênus",
         "id": 2
     },
     {
         "name": "Mariner 5",
         "year": "1967",
         "country": "Estados Unidos",
-        "destination": "V\u00eanus",
+        "destination": "Vênus",
         "id": 3
     },
     {
@@ -31,21 +31,21 @@
         "name": "Mariner 10",
         "year": "1973",
         "country": "Estados Unidos",
-        "destination": "Merc\u00fario e V\u00eanus",
+        "destination": "Mercúrio e Vênus",
         "id": 5
     },
     {
         "name": "Voyager 1",
         "year": "1977",
         "country": "Estados Unidos",
-        "destination": "Espa\u00e7o interestelar",
+        "destination": "Espaço interestelar",
         "id": 6
     },
     {
         "name": "Venera 16",
         "year": "1983",
         "country": "URSS",
-        "destination": "V\u00eanus",
+        "destination": "Vênus",
         "id": 7
     },
     {
@@ -66,7 +66,7 @@
         "name": "Galileo",
         "year": "1989",
         "country": "Estados Unidos",
-        "destination": "J\u00fapiter",
+        "destination": "Júpiter",
         "id": 10
     },
     {
@@ -86,15 +86,15 @@
     {
         "name": "Nozomi (Planeta B)",
         "year": "1998",
-        "country": "Jap\u00e3o",
+        "country": "Japão",
         "destination": "Marte",
         "id": 13
     },
     {
-        "name": "Esta\u00e7\u00e3o Internacional Espacial",
+        "name": "Estação Internacional Espacial",
         "year": "1998",
-        "country": "Estados Unidos e R\u00fassia",
-        "destination": "\u00d3rbita terrestre",
+        "country": "Estados Unidos e Rússia",
+        "destination": "Órbita terrestre",
         "id": 14
     },
     {
@@ -122,21 +122,21 @@
         "name": "MESSENGER",
         "year": "2004",
         "country": "Estados Unidos",
-        "destination": "Merc\u00fario",
+        "destination": "Mercúrio",
         "id": 18
     },
     {
-        "name": "Telesc\u00f3pio Espacial Kepler",
+        "name": "Telescópio Espacial Kepler",
         "year": "2009",
         "country": "Estados Unidos",
-        "destination": "Espa\u00e7o interestelar",
+        "destination": "Espaço interestelar",
         "id": 19
     },
     {
-        "name": "Telesc\u00f3pio Espacial James Webb",
+        "name": "Telescópio Espacial James Webb",
         "year": "2021",
-        "country": "Estados Unidos, Uni\u00e3o Europeia e Canad\u00e1",
-        "destination": "Espa\u00e7o interestelar",
+        "country": "Estados Unidos, União Europeia e Canadá",
+        "destination": "Espaço interestelar",
         "id": 20
     }
 ]
